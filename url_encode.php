@@ -4,6 +4,7 @@ PASSING php variables through urlencode() function
 example: http://localhost/php_lessons/url_variables.php?favmovie=$favmovie 
 */
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>

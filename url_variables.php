@@ -10,7 +10,7 @@ example1: http://localhost/php_lessons/url_variables.php?favmovie=avatar&movirat
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo "favorite movie: " . " ". $_REQUEST['favmovie']; ?></title>
+	<title><?php echo "favorite movie: " ." ". $_REQUEST['favmovie']; ?></title>
 </head>
 
 <body>
