@@ -1,6 +1,6 @@
 <?php 
 /*
-PASSING php variables through urlencode() function 
+PASSING php variables in URL with urlencode() function 
 example: http://localhost/php_lessons/url_variables.php?favmovie=$favmovie 
 */
 ?>
