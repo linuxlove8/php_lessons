@@ -11,13 +11,15 @@ example: http://localhost/php_lessons/url_variables.php?favmovie=$favmovie
 </head>
 <body>
 
-<?php 
+<div>
+	<?php 
+		$favmovie = urlencode("The Lion King");
 
-	$favmovie = urlencode("The Lion King");
+		echo "<a href='url_variables.php?favmovie=$favmovie'>";
+		echo "Click here to see information about my favotite movie";
+		echo "</a>";
+	?>
+</div>
 
-	echo "<a href='url_variables.php?favmovie=$favmovie'>";
-	echo "Click here to see information about my favotite movie";
-	echo "</a>";
-?>
 </body>
 </html>

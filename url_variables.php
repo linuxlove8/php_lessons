@@ -12,7 +12,10 @@ example1: http://localhost/php_lessons/url_variables.php?favmovie=avatar&movirat
 <head>
 	<title><?php echo "favorite movie: " . " ". $_REQUEST['favmovie']; ?></title>
 </head>
+
 <body>
+
+<div>
 	<?php
 		echo "My favorite movie is: ";
 		echo $_REQUEST['favmovie'];
@@ -22,5 +25,7 @@ example1: http://localhost/php_lessons/url_variables.php?favmovie=avatar&movirat
 		echo "My movie rating for this movie is: ";
 		echo $movierate;
 	?>
+	</div>
+
 </body>
 </html>
