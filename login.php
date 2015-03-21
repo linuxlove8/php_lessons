@@ -14,6 +14,7 @@ session_unset();
 	<title>Passing variables with html form.</title>
 </head>
 <body>
+<?php include('header.php'); ?>
 
 <form method="post" action="login_action.php">
 

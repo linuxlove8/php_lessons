@@ -27,6 +27,7 @@ if ( ($_SESSION['username'] == 'horrow') && ($_SESSION['userpass'] == '12345') )
 	<title>Check the information taken from login.php</title>
 </head>
 <body>
+<?php include('header.php'); ?>
 
 <?php 
 
