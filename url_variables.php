@@ -25,7 +25,7 @@ example1: http://localhost/php_lessons/url_variables.php?favmovie=avatar&movirat
 		echo "My movie rating for this movie is: ";
 		echo $movierate;
 	?>
-	</div>
+</div>
 
 </body>
 </html>
