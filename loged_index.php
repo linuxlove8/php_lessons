@@ -21,6 +21,7 @@ if ($_SESSION['authuser'] != 1) {
 <body>
 <?php include('header.php'); ?>
 
+
 <?php
 
 echo "Welcome to our site, ";
