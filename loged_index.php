@@ -16,7 +16,7 @@ if ($_SESSION['authuser'] != 1) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo $_REQUEST['favmovie'] ?></title>
+	<title><?php echo $_REQUEST['favmovie']; ?></title>
 </head>
 <body>
 <?php include('header.php'); ?>
