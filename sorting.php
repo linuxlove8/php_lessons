@@ -12,7 +12,6 @@ sort()
 
 ?>
 
-
 <?php
 
 $fruits = array(
@@ -37,12 +36,12 @@ $fruits = array(
 <body>
 
 
-<p>not sorted</p>
+<div>not sorted</div>
 <pre>
 	<?php print_r($fruits); ?>
 </pre>
 
-<p>sorted</p>
+<div>sorted</div>
 <pre>
 	<?php
 	 sort($fruits);
