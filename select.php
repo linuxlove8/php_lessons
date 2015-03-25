@@ -32,5 +32,4 @@ while ($row = mysql_fetch_assoc($result)) {
 	echo "<br>";
 }
 
-
 ?>
